@@ -1,0 +1,9 @@
+mylist = []
+n = int(input()) #For the number of items in list
+i = 0
+for i in range(n):
+    item = int(input())
+    mylist.append(item)
+for x in mylist:
+    if x > 0:
+        print(x,end=",")
